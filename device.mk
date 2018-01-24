@@ -32,12 +32,9 @@ PRODUCT_PACKAGES += \
     fs_config_files
 
 # ANT+
-PRODUCT_COPY_FILES += \
-    external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml
-
 PRODUCT_PACKAGES += \
-    AntHalService \
-    com.dsi.ant.antradio_library
+    antradio_app \
+    AntHalService
 
 # Audio
 PRODUCT_PACKAGES += \
