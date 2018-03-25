@@ -120,7 +120,7 @@
      <bool name="config_lidControlsSleep">false</bool>
 
     <!-- Should the pinner service pin the Camera application? -->
-     <bool name="config_pinnerCameraApp">false</bool>
+     <bool name="config_pinnerCameraApp">true</bool>
 
     <!-- Should the pinner service pin the Home application? -->
      <bool name="config_pinnerHomeApp">false</bool>
@@ -575,6 +575,18 @@
         <item>1,1</item>
         <item>0,1</item>
         <item>7,1</item>
+    </string-array>
+
+    <!-- Default list of files pinned by the Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system/framework/arm64/boot-framework.oat"</item>
+        <item>"/system/framework/arm64/boot-framework.vdex"</item>
+        <item>"/system/framework/oat/arm64/services.odex"</item>
+        <item>"/system/framework/oat/arm64/services.vdex"</item>
+        <item>"/system/framework/arm64/boot.oat"</item>
+        <item>"/system/framework/arm64/boot.vdex"</item>
+        <item>"/system/framework/arm64/boot-core-libart.oat"</item>
+        <item>"/system/framework/arm64/boot-core-libart.vdex"</item>
     </string-array>
 
 </resources>
