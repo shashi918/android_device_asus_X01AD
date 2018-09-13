@@ -1,0 +1,2 @@
+# Camera
+allow system_server vendor_camera_prop:file { open read getattr };
