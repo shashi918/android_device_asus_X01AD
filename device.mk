@@ -399,11 +399,7 @@ PRODUCT_COPY_FILES += \
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
-    ims_ext_common.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+    ims_ext_common.xml
 
 # Tethering
 PRODUCT_PACKAGES += \
