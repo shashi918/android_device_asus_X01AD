@@ -3051,10 +3051,6 @@ vendor/lib/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
 -vendor/lib64/libthermalclient.so
 
-# Thermal-Hardware
-vendor/lib/hw/thermal.msm8953.so
-vendor/lib64/hw/thermal.msm8953.so
-
 # Time
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
