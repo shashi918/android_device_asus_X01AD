@@ -151,7 +151,8 @@ PRODUCT_PACKAGES += \
     liboverlay \
     libqdMetaData.system \
     libgenlock \
-    libtinyxml
+    libtinyxml \
+    vendor.display.config@1.9
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
