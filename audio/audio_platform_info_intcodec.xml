@@ -53,6 +53,7 @@
     <config_params>
         <param key="spkr_1_tz_name" value="wsa881x.0f"/>
         <param key="spkr_2_tz_name" value=""/>
+        <param key="native_audio_mode" value="true"/>
     </config_params>
     <acdb_ids>
 	<!-- Huaqin add for config nxp pa cal by zhengwu at 2018/06/27 start -->
