@@ -12,4 +12,4 @@ property.cdfinger.enablesave                  u:object_r:vendor_fingerprint_prop
 persist.vendor.runin.fp                       u:object_r:vendor_fingerprint_prop:s0
 
 # wifi
-wifi.active.interface              u:object_r:wifi_prop:s0 
+wifi.active.interface           u:object_r:exported_wifi_prop:s0
