@@ -1,6 +1,5 @@
 # Audio
 af.fast_track_multiplier=1
-audio.deep_buffer.media=true
 audio.offload.min.duration.secs=30
 audio.offload.video=true
 persist.vendor.audio.fluence.voicecall=true
@@ -29,7 +28,7 @@ vendor.audio.safx.pbe.enabled=true
 vendor.audio.tunnel.encode=false
 vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
-vendor.voice.conc.fallbackpath=deep-buffer
+vendor.voice.conc.fallbackpath=low_latency
 vendor.voice.path.for.pcm.voip=true
 vendor.voice.playback.conc.disabled=true
 vendor.voice.record.conc.disabled=false
