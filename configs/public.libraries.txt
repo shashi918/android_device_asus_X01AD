@@ -6,5 +6,7 @@ libfastcvopt.so
 liblistenjni.so
 liblistensoundmodel2.so
 libOpenCL.so
+libprotobuf-cpp-full.so
+libprotobuf-cpp-lite.so
 libnpu.so
 libhta_hexagon_runtime.so
