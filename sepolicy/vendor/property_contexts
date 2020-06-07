@@ -4,6 +4,9 @@ persist.net.doxlat         u:object_r:vendor_xlat_prop:s0
 camera.dual.mode           u:object_r:camera_prop:s0
 persist.camera.            u:object_r:camera_prop:s0
 
+persist.vendor.camera.rearMain.fuseID        u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.frontMain.fuseID       u:object_r:vendor_camera_prop:s0
+
 # Fingerprint
 property.cdfinger.enablesave                  u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.runin.fp                       u:object_r:vendor_fingerprint_prop:s0
