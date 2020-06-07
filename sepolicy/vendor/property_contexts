@@ -6,3 +6,6 @@ persist.camera.            u:object_r:camera_prop:s0
 
 # wifi
 wifi.active.interface           u:object_r:exported_wifi_prop:s0
+
+persist.vendor.camera.rearMain.fuseID        u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.frontMain.fuseID       u:object_r:vendor_camera_prop:s0
