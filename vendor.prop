@@ -49,7 +49,6 @@ ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
 
 # Codec2 switch
-debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 
 # Dalvik
