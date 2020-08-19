@@ -1,3 +1,5 @@
+
+dontaudit qti_init_shell self:capability { dac_override };
 typeattribute qti_init_shell data_between_core_and_vendor_violators;
 
 allow qti_init_shell proc_boot_reason:file { open read };
