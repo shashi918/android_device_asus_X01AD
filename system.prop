@@ -27,7 +27,7 @@ vendor.camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.an
 camera.lowpower.record.enable=1
 vidc.enc.dcvs.extra-buff-count=2
 
-debug.sf.hw=0
+debug.sf.hw=1
 debug.sf.latch_unsignaled=1
 debug.egl.hw=0
 persist.hwc.mdpcomp.enable=true
