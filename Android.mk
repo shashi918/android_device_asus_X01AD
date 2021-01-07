@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter mido tissot,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),X01AD)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
