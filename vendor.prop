@@ -96,3 +96,7 @@ vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
 # Shutdown time
 sys.vendor.shutdown.waittime=500
+
+# Iorap
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
