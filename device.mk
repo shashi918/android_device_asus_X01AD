@@ -260,7 +260,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # Properties
--include device/asus/X01AD/prop.mk
+-include device/asus/X01AD/system.prop
+-include device/asus/X01AD/vendor.prop
 
 # QMI
 PRODUCT_PACKAGES += \
