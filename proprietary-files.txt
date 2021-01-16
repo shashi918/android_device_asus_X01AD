@@ -2105,9 +2105,6 @@ vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
 vendor/firmware/mono.cnt
 vendor/firmware/novatek_ts_fw.bin
-vendor/firmware/wlan/prima/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat
 
 # GPS - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
 vendor/bin/garden_app|f0a1f082c2abaf0ffda363e52361587f1c8a7492
