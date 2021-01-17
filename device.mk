@@ -264,7 +264,7 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 -include device/asus/X01AD/system.prop
--include device/asus/X01AD/vendor.prop
+-include device/asus/X01AD/vendor_prop.mk
 
 # QMI
 PRODUCT_PACKAGES += \
