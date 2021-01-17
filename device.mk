@@ -263,10 +263,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
-# Properties
--include device/asus/X01AD/system.prop
--include device/asus/X01AD/vendor_prop.mk
-
 # QMI
 PRODUCT_PACKAGES += \
     libjson
