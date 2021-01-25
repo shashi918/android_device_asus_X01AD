@@ -30,3 +30,11 @@ TARGET_VENDOR := asus
 BOARD_VENDOR := asus
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_DEVICE=ASUS_X01AD \
+    PRODUCT_NAME=WW_X01AD \
+    PRIVATE_BUILD_DESC="coral-user 11 RQ1A.210105.003 7005429 release-keys"
+
+# Build fingerprint
+BUILD_FINGERPRINT := "google/coral/coral:11/RQ1A.210105.003/7005429:user/release-keys"
