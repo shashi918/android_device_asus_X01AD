@@ -50,6 +50,8 @@ debug.stagefright.omx_default_rank=0
 
 # Display
 ro.opengles.version=196610
+ro.hardware.vulkan=adreno
+ro.hardware.egl=adreno
 
 # DRM
 drm.service.enabled=true
