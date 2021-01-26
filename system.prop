@@ -19,6 +19,13 @@ DEVICE_PROVISIONED=1
 #
 ro.telephony.default_network=22,22
 
+# Camera
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam
+persist.camera.privapp.list=org.codeaurora.snapcam
+vendor.camera.aux.packagelist=org.codeaurora.snapcam
+vendor.camera.lowpower.record.enable=1
+vidc.enc.dcvs.extra-buff-count=2
+
 debug.sf.hw=0
 debug.sf.latch_unsignaled=1
 debug.egl.hw=0
@@ -134,9 +141,6 @@ vendor.video.disable.ubwc=1
 # disable PQ feature by default
 vendor.vidc.enc.disable.pq=true
 
-# Additional buffers shared between Camera and Video
-vidc.enc.dcvs.extra-buff-count=2
-
 # system property to accelerate Progressive Download using STA
 persist.mm.sta.enable=0
 
@@ -162,24 +166,11 @@ ro.cutoff_voltage_mv=3400
 #set device emmc size
 ro.emmc_size=16GB
 
-#force HAL1 for below packages
-vendor.camera.hal1.packagelist=com.skype.raider,com.google.android.talk
-
 #Enable FR27607-RIL to send ONLINE cmd in bootup
 #persist.radio.poweron_opt=1
 
-#low power mode for camera
-vendor.camera.lowpower.record.enable=1
-
-#properties for limiting preview size in camera
-persist.vendor.camera.display.umax=1920x1080
-persist.vendor.camera.display.lmax=1280x720
-
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
-
-#expose aux camera for below packages
-vendor.camera.aux.packagelist=org.codeaurora.snapcam
 
 #set cutoff voltage to 3400mV
 ro.cutoff_voltage_mv=3400
