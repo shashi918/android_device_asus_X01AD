@@ -56,13 +56,6 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     tinymix
 
-PRODUCT_PACKAGES += \
-    libhdmiedid \
-    libhfp \
-    libsndmonitor \
-    libspkrprot \
-    libssrec
-
 # Audio Configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
@@ -104,6 +97,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
 PRODUCT_PACKAGES += \
