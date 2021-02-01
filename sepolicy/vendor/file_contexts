@@ -1,18 +1,6 @@
 # Executables
 /system/bin/chargeonlymode			u:object_r:charger_exec:s0
 
-
-# Fingerprint Data files
-/data/vendor/goodix(/.*)?                           u:object_r:fp_data_file:s0
-/data/vendor/fpc(/.*)?                              u:object_r:fp_data_file:s0
-/data/gf_data(/.*)?                                 u:object_r:gf_data_file:s0
-
-# FPC FP
-/sys/devices/platform/soc/soc:fpc1020(/.*)?         u:object_r:sysfs_fpc:s0
-
-# Goodix FP
-/dev/goodix_fp					    u:object_r:goodix_fp_device:s0
-
 # Firmware
 /firmware                                                     u:object_r:firmware_file:s0
 /bt_firmware                                                  u:object_r:bt_firmware_file:s0
