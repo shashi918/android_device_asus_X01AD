@@ -62,6 +62,9 @@
     <!-- Flag specifying whether WFC over IMS is available on device -->
      <bool name="config_device_wfc_ims_available">true</bool>
 
+     <!-- Whether device supports double tap to wake -->
+    <bool name="config_supportDoubleTapWake">true</bool>
+
     <!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
      <bool name="config_displayBlanksAfterDoze">false</bool>
 
@@ -122,7 +125,10 @@
      <bool name="config_pinnerCameraApp">true</bool>
 
     <!-- Should the pinner service pin the Home application? -->
-     <bool name="config_pinnerHomeApp">false</bool>
+     <bool name="config_pinnerHomeApp">true</bool>
+
+     <!-- Flag indicating whether we should enable smart battery. -->
+    <bool name="config_smart_battery_available">true</bool>
 
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
@@ -167,9 +173,6 @@
 
     <!-- Whether the Unprocessed audio source supports the required frequency range and level -->
      <bool name="config_supportAudioSourceUnprocessed">true</bool>
-
-    <!-- Whether device supports double tap to wake -->
-     <bool name="config_supportDoubleTapWake">false</bool>
 
     <!-- Boolean indicating if current platform supports HFP inband ringing -->
      <bool name="config_supportSystemNavigationKeys">false</bool>
@@ -228,7 +231,8 @@
      <bool name="skip_restoring_network_selection">true</bool>
 
     <!-- Height of the status bar -->
-     <dimen name="status_bar_height_portrait">57.0px</dimen>
+    <dimen name="status_bar_height_portrait">55.0px</dimen>
+    <dimen name="status_bar_height_landscape">24.0dp</dimen>
 
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
