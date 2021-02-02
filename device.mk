@@ -178,10 +178,6 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
-# Gcam
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
 # GPS
 PRODUCT_PACKAGES += \
     libjson
