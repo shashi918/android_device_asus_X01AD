@@ -74,6 +74,9 @@ on post-fs-data
     mkdir /persist/data/tz 0700 system system
     mkdir /data/misc/dts 0770 media audio
 
+    # Tap to wake node	
+    chown system system /proc/ilitek/gesture	
+    chmod 0660 /proc/ilitek/gesture
 
 #start camera server as daemon
 service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
