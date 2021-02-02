@@ -181,10 +181,6 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
-# Gcam
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
 # GPS
 PRODUCT_PACKAGES += \
     libjson
