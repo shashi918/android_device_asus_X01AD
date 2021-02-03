@@ -165,6 +165,20 @@ on boot
     chown system system /persist/speccfg/submask
     chown system system /persist/speccfg/partition
 
+# Huaqin modify for ZQL1830-395 by zhaojunhai1 at 2018/7/17 start
+#cdfinger
+    chmod 666 /dev/fpsdev0
+# Huaqin modify for ZQL1830-395 by zhaojunhai1 at 2018/7/17 end
+
+# Huaqin modify for ZQL1830-395 by zhaojunhai1 at 2018/7/26 start
+#focaltech
+    chmod 666 /dev/focaltech_fp
+
+on post-fs-data
+	mkdir /data/vendor/focaltech 0760 system system
+	restorecon /data/vendor/focaltech
+# Huaqin modify for ZQL1830-395 by zhaojunhai1 at 2018/7/26 end
+
 # access permission for wlan
     chown system system /mnt/vendor/persist/WCNSS_qcom_wlan_nv.bin
 
@@ -280,3 +294,17 @@ on boot
     chown system system /sys/class/leds/blue/breath
     chown system system /sys/class/leds/blue/delay_on
     chown system system /sys/class/leds/blue/delay_off
+
+on property:sys.huaqin.camera=1
+    chmod 0777 /data/vendor
+    chmod 0777 /data/vendor/camera
+    chmod 0777 /data/vendor/camera/wide_1600x1200.nv21
+    chmod 0777 /data/vendor/camera/tele_4160x3120.nv21
+    symlink /mnt/vendor/persist/dualcali_dump.bin /data/vendor/camera/dualcali_dump.bin
+    chown system system /data/vendor/camera/dualcali_dump.bin
+on property:sys.huaqin.camera=0
+    chmod 0770 /data/vendor/camera
+    chmod 0770 /data/vendor/camera/wide_1600x1200.nv21
+    chmod 0770 /data/vendor/camera/tele_4160x3120.nv21
+    rm /data/vendor/camera/dualcali_dump.bin
+on property:sys.huaqin.camera_sync=1   
