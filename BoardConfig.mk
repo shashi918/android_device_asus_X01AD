@@ -138,7 +138,7 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/ilitek/gesture"
+TARGET_TAP_TO_WAKE_NODE := "/proc/tpd_gesture"
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
