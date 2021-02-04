@@ -63,7 +63,6 @@ vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
@@ -74,34 +73,10 @@ vendor/lib64/libaudioconfigstore.so
 vendor/lib64/libaudioparsers.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libqtigef.so
-vendor/lib64/libtinycompress.so
 vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
 
 # Audio-ACDB
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_General_cal.acdb
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Global_cal.acdb
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_General_cal.acdb
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Global_cal.acdb
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Handset_cal.acdb
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_workspaceFile.qwsp
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
