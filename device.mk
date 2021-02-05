@@ -162,6 +162,17 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# FM
+PRODUCT_PACKAGES += \
+    android.hardware.broadcastradio@1.0-impl \
+    android.hardware.broadcastradio@1.0-service
+
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio \
+    qcom.fmradio.xml
+    
 # GPS
 PRODUCT_PACKAGES += \
     libjson
