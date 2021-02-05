@@ -172,3 +172,7 @@ ro.cutoff_voltage_mv=3400
 
 # BPF
 ro.kernel.ebpf.supported=true
+
+# Huaqin modify for ZQL1830-243 by yaoruidong at 2018/8/17 start
+persist.asus.led.on=1
+# Huaqin modify for ZQL1830-243 by yaoruidong at 2018/8/17 end
