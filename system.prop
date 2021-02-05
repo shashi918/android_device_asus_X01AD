@@ -20,10 +20,10 @@ DEVICE_PROVISIONED=1
 ro.telephony.default_network=22,22
 
 # Camera
+persist.sys.camera.camera2=true
 camera.display.lmax=1280x720
 camera.display.umax=1920x1080
-vendor.camera.aux.packagelist=org.lineageos.snap,com.google.android.GoogleCamera
-vendor.camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit
 camera.lowpower.record.enable=1
 vidc.enc.dcvs.extra-buff-count=2
 
