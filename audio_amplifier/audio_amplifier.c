@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "amplifier_sdm660"
+#define LOG_TAG "amplifier_msm8953"
 //#define LOG_NDEBUG 0
 
 #include <cutils/str_parms.h>
@@ -224,7 +224,7 @@ amplifier_module_t HAL_MODULE_INFO_SYM = {
         .module_api_version = AMPLIFIER_MODULE_API_VERSION_0_1,
         .hal_api_version = HARDWARE_HAL_API_VERSION,
         .id = AMPLIFIER_HARDWARE_MODULE_ID,
-        .name = "ASUS SDM660 TFA98XX audio amplifier HAL",
+        .name = "ASUS SDM632 TFA98XX audio amplifier HAL",
         .author = "The LineageOS Open Source Project",
         .methods = &hal_module_methods,
     },

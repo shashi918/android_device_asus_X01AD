@@ -30,7 +30,7 @@ LOCAL_SHARED_LIBRARIES := \
     libhidlbase \
     libprocessgroup \
     libutils \
-    audio.primary.sdm660
+    audio.primary.msm8953
 
 LOCAL_C_INCLUDES += \
     external/tinyalsa/include \
@@ -46,7 +46,7 @@ LOCAL_C_INCLUDES += \
 
 LOCAL_HEADER_LIBRARIES := generated_kernel_headers
 LOCAL_SRC_FILES := audio_amplifier.c
-LOCAL_MODULE := audio_amplifier.sdm660
+LOCAL_MODULE := audio_amplifier.msm8953
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
 LOCAL_VENDOR_MODULE := true
