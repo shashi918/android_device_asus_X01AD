@@ -1,2 +1,3 @@
 type focaltech_vndservice, vndservice_manager_type;
 type goodix_fingerprint_vndservice, vndservice_manager_type;
+type power_stats_service,          vndservice_manager_type;
