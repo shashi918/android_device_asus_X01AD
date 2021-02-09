@@ -61,7 +61,6 @@ vendor/lib/libaudio_log_utils.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
-vendor/lib/libtinycompress_vendor.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
@@ -73,7 +72,6 @@ vendor/lib64/libaudioconfigstore.so
 vendor/lib64/libaudioparsers.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libqtigef.so
-vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/soundfx/libasphere.so
 
 # Audio-ACDB
