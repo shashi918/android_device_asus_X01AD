@@ -166,14 +166,8 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    android.hardware.broadcastradio@1.0-impl \
-    android.hardware.broadcastradio@1.0-service
-
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio \
-    qcom.fmradio.xml
+    FMRadio \
+    libfmjni
     
 # GPS
 PRODUCT_PACKAGES += \
