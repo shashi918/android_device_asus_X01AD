@@ -39,6 +39,6 @@
     <bool translatable="false" name="config_wifi_only_link_same_credential_configurations">false</bool>
 
     <!-- Do not translate. Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">Redmi 7</string>
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Asus Max M2</string>
 
 </resources>
